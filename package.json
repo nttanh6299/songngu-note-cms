@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.3.0",
+    "@strapi/plugin-documentation": "^5.3.0",
+    "@strapi/plugin-seo": "^2.0.2",
     "@strapi/plugin-users-permissions": "5.3.0",
     "@strapi/strapi": "5.3.0",
     "pg": "8.8.0",
@@ -31,6 +33,7 @@
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "6ea9c7a0-76ac-4d43-a9c5-2925c5d6f87d"
+    "uuid": "6ea9c7a0-76ac-4d43-a9c5-2925c5d6f87d",
+    "telemetryDisabled": true
   }
 }

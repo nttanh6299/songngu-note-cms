@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_paragraphs",
+  "info": {
+    "displayName": "paragraph",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "original": {
+      "type": "text",
+      "required": true,
+      "unique": false
+    },
+    "translated": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.translated-content"
+    }
+  }
+}
