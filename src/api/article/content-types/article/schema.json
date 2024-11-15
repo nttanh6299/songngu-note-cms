@@ -33,7 +33,7 @@
     "author": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "plugin::users-permissions.user",
+      "target": "api::author.author",
       "inversedBy": "articles"
     },
     "categories": {
@@ -58,6 +58,11 @@
     "voice": {
       "type": "customField",
       "customField": "plugin::voicer.voicer"
+    },
+    "note": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.note"
     }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_notes",
+  "info": {
+    "displayName": "note",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "noted": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

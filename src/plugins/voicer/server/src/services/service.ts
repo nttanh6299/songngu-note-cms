@@ -19,7 +19,7 @@ const service = ({ strapi }: { strapi: Core.Strapi }) => ({
       const stream = await PlayHT.stream(text, {
         voiceEngine: 'Play3.0-mini',
         voiceId:
-          's3://voice-cloning-zero-shot/7c38b588-14e8-42b9-bacd-e03d1d673c3c/nicole/manifest.json',
+          's3://voice-cloning-zero-shot/6c9c01b7-8d38-47ae-8ce5-18a360b26cf3/oliversaad/manifest.json',
         outputFormat: 'mp3',
       });
 
